@@ -179,16 +179,15 @@ public class ChatReceivHadler {
         }
         return null;
     }
-
-    //TODO
+    
+    //todo lang replace ru-en o-o p-p
     public static boolean inBlackList(String name, List<String> blacklist) {
         if (!isNullOrEmpty(name) && blacklist != null && !blacklist.isEmpty()) {
             for (int i = 0; i < blacklist.size(); i++) {
                 String bname = blacklist.get(i);
                 if (name.equalsIgnoreCase(bname)) {
                     return true;
-                }
-                //todo lang replace ru-en o-o p-p
+                }                
             }
         }
         return false;
