@@ -1,8 +1,8 @@
 [
 {
-  "modid": "StatisticGuiFix",
-  "name": "Statistic Gui Fix",
-  "description": "Fixing an crash that occurs when opening the Statistic Gui on the client",
+  "modid": "ChatGuard",
+  "name": "Chat Guard",
+  "description": ""Chat Guarding based on blacklist for ignore players message and emoties from game and Discord",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
