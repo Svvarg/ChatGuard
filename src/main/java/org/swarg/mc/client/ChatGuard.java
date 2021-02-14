@@ -19,8 +19,8 @@ import org.swarg.mc.client.handlers.ChatReceivHadler;
 public class ChatGuard {
     public static final Logger LOG = LogManager.getLogger("ChatGuard");
     public static final String MODID = "ChatGuard";
-    public static final String VERSION = "0.4";
-    public static final int BUILD = 39;
+    public static final String VERSION = "0.1";
+    public static final int BUILD = 40;
     
     @EventHandler
     public void init(FMLInitializationEvent event) {
